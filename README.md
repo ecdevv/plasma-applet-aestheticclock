@@ -4,9 +4,7 @@
 </p>
 
 <p align="center">
-  <img src="preview/ss_1.png" alt="Clock Preview" width="400"/>
-  <br>
-  <i>A sample view of the clock with custom fonts and color themes.</i>
+  <img src="preview/ss_1.png" alt="Clock Preview"/>
 </p>
 
 ## Compatibility & Overview
