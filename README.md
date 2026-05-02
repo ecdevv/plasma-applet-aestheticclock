@@ -4,16 +4,18 @@
 </p>
 
 <p align="center">
-  <img src="assets/preview_main.png" alt="Clock Preview" width="400"/>
+  <img src="preview/ss_1.png" alt="Clock Preview" width="400"/>
   <br>
   <i>A sample view of the clock with custom fonts and color themes.</i>
 </p>
 
 ## Compatibility & Overview
 This project is a port of the original **Aesthetic Clock** to the **KDE Plasma 6** environment. The original widget relied on legacy Plasma 5 APIs that are deprecated or inefficient in modern KDE. This port rebuilds the widget using native Plasma 6 standards while preserving its signature visual style. 
-<br>This was originally made for my personal use, but decided to upload it in case others find it useful.
+
+This project was originally created for personal use and is provided publicly in case it is useful to others.
+
 - **Supported:** Plasma 6.4.5+ (older 6.x versions untested)
-- **Original:** [kde_aestheticclock](https://github.com/Prayag2/kde_aestheticclock)
+- **Original:** [kde_aestheticclock by Prayag2](https://github.com/Prayag2/kde_aestheticclock)
 
 ## Features
 *   **🕒 Dynamic Fill Animation:** The clock text fills proportionally as time progresses.
@@ -56,7 +58,7 @@ kpackagetool6 -t Plasma/Applet -i path/to/package
 ```
 
 ## Credits
-- **Original Applet (Plasma 5):** [kde_aestheticclock](https://github.com/Prayag2/kde_aestheticclock)
+- **Original Applet (Plasma 5) by Prayag2:** [kde_aestheticclock](https://github.com/Prayag2/kde_aestheticclock)
 
 ## License
 This project is licensed under the **GNU General Public License v3.0** (GPLv3). The original work by Prayag2 is used under the same license.
