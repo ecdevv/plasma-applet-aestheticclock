@@ -40,7 +40,7 @@ KCM.SimpleKCM {
     property alias cfg_enable_fill_animation: enableFillAnimation.checked
     property alias cfg_show_date: showDate.checked
     property alias cfg_enable_24_hour: enable24Hour.checked
-    property alias cfg_use_system_colors: useSystemColors.checked
+    // property alias cfg_use_system_colors: useSystemColors.checked
     property alias cfg_remove_leading_zero: removeLeadingZero.checked
 
     Kirigami.FormLayout {
