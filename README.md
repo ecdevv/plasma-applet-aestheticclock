@@ -1,0 +1,62 @@
+<p align="center">
+  <h1 align="center">Aesthetic Clock for KDE Plasma 6+</h1>
+  <p align="center">An aesthetic looking clock for KDE with a built-in system monitor and media player! The text "fills up" as the values increase! <br><strong>Ported to KDE Plasma 6.</strong></p>
+</p>
+
+<p align="center">
+  <img src="assets/preview_main.png" alt="Clock Preview" width="400"/>
+  <br>
+  <i>A sample view of the clock with custom fonts and color themes.</i>
+</p>
+
+## Compatibility & Overview
+This project is a port of the original **Aesthetic Clock** to the **KDE Plasma 6** environment. The original widget relied on legacy Plasma 5 APIs that are deprecated or inefficient in modern KDE. This port rebuilds the widget using native Plasma 6 standards while preserving its signature visual style. 
+<br>This was originally made for my personal use, but decided to upload it in case others find it useful.
+- **Supported:** Plasma 6.4.5+ (older 6.x versions untested)
+- **Original:** [kde_aestheticclock](https://github.com/Prayag2/kde_aestheticclock)
+
+## Features
+*   **🕒 Dynamic Fill Animation:** The clock text fills proportionally as time progresses.
+*   **📊 System Monitor:** Real-time tracking of CPU, RAM, and System Uptime.
+*   **🎵 Media Integration:** Auto-detects players (Spotify, Firefox, etc.) and displays track info.
+*   **🎨 High Customization:** Control fonts, colors, spacing, and visibility to match your desktop.
+
+## Port Improvements
+
+*   **Plasma 6 Architecture:** Replaced most deprecated Plasma 5 data sources with modern Plasma 6 APIs for better reliability (still uses `org.kde.plasma.plasma5support` for time data source).
+*   **System Monitor:** Updated to the standard `org.kde.ksysguard.sensors` API, replacing the legacy system monitor engine that is no longer used.
+*   **Media Integration:** Updated to `Mpris.Mpris2Model` for player detection (Spotify, Firefox, etc.).
+*   **Optimizations & Fixes:** Cleaned up time parsing logic, improved color and font/style handling, and fixed configuration menu.
+*   **New Options:** Added **Remove Leading Zero** toggle, refined proportional font scaling, and added an option to **choose a preferred player**.
+
+### Known Issues
+- Use system colors is currently disabled.
+- Reset to Default colors button may not update the color picker preview correctly, but still applies the correct values.
+- MPRIS may not return multiple artists for tracks with multiple artists.
+
+## Installation
+
+### Manual Installation
+1. Clone this repository:
+   ```bash
+   git clone https://github.com/[ecdevv]/plasma-applet-aestheticclock.git
+   ```
+2. Copy the widget to your local Plasma folder:
+   ```bash
+   mkdir -p ~/.local/share/plasma/plasmoids/com.github.prayag2.aestheticclock
+   cp -r plasma-applet-aestheticclock/package/* ~/.local/share/plasma/plasmoids/com.github.prayag2.aestheticclock/
+   ```
+3. Restart Plasma (or log out and log back in).
+4. Right-click your desktop > **Add Widgets** > Find "Aesthetic Clock" and click the **+** button.
+
+### KPackageKit (CLI)
+If you prefer using the package manager tools:
+```bash
+kpackagetool6 -t Plasma/Applet -i path/to/package
+```
+
+## Credits
+- **Original Applet (Plasma 5):** [kde_aestheticclock](https://github.com/Prayag2/kde_aestheticclock)
+
+## License
+This project is licensed under the **GNU General Public License v3.0** (GPLv3). The original work by Prayag2 is used under the same license.

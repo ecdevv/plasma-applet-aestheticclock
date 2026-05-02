@@ -1,0 +1,26 @@
+{
+    "KPackageStructure": "Plasma/Applet",
+    "KPlugin": {
+        "Authors": [
+            {
+                "Email": "prayagjain2@gmail.com",
+                "Name": "Prayag Jain"
+            },
+            {
+                "Email": "ech2447@gmail.com",
+                "Name": "ecdevv"
+            }
+        ],
+        "Category": "Date and Time",
+        "Description": "An aesthetic looking and customizable widget with a built-in system monitor and media player! Ported to Plasma 6",
+        "Icon": "org.kde.plasma.digitalclock",
+        "Id": "com.github.prayag2.aestheticclock",
+        "License": "GPLv3",
+        "Name": "Aesthetic Clock",
+        "Version": "1.0.0",
+        "Website": "https://github.com/ecdevv/plasma-applet-aestheticclock"
+    },
+    "X-Plasma-API": "declarativeappletscript",
+    "X-Plasma-Provides": "org.kde.plasma.time,org.kde.plasma.date",
+    "X-Plasma-API-Minimum-Version": "6.0"
+}
