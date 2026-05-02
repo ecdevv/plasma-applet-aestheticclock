@@ -27,7 +27,7 @@ This project was originally created for personal use and is provided publicly in
 *   **System Monitor:** Updated to the standard `org.kde.ksysguard.sensors` API, replacing the legacy system monitor engine that is no longer used.
 *   **Media Integration:** Updated to `Mpris.Mpris2Model` for player detection (Spotify, Firefox, etc.).
 *   **Optimizations & Fixes:** Cleaned up time parsing logic, improved color and font/style handling, and fixed configuration menu.
-*   **New Options:** Added **Remove Leading Zero** toggle, refined proportional font scaling, and added an option to **choose a preferred player**.
+*   **New Options:** Added **Remove Leading Zero** toggle and added an option to **choose a preferred player**.
 
 ### Known Issues
 - Use system colors is currently disabled.
