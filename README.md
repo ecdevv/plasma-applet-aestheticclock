@@ -59,4 +59,6 @@ kpackagetool6 -t Plasma/Applet -i path/to/package
 - **Original Applet (Plasma 5) by Prayag2:** [kde_aestheticclock](https://github.com/Prayag2/kde_aestheticclock)
 
 ## License
-This project is licensed under the **GNU General Public License v3.0** (GPLv3). The original work by Prayag2 is used under the same license.
+This project is licensed under the **GNU General Public License v3.0** (GPLv3).
+
+The original work by Prayag2 is used under the same license.
