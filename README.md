@@ -38,27 +38,26 @@ This project was originally created for personal use and is provided publicly in
 
 ### Manual Installation
 ```bash
-# Clone the repository:
+# 1. Clone the repository:
 git clone https://github.com/[ecdevv]/plasma-applet-aestheticclock.git
 
-# Copy the widget to your local Plasma folder:
+# 2. Copy the widget to your local Plasma folder:
 mkdir -p ~/.local/share/plasma/plasmoids/com.github.prayag2.aestheticclock
 cp -r plasma-applet-aestheticclock/package/* ~/.local/share/plasma/plasmoids/com.github.prayag2.aestheticclock/
 
-# Restart Plasma (or log out and log back in):
+# 3. Restart Plasma (or log out and log back in):
 nohup plasmashell --replace &>/dev/null & disown
 # or
 kquitapp6 plasmashell && kstart5 plasmashell
-
-# Run the app:
-Right-click your desktop > **Add Widgets** > Find "Aesthetic Clock" and click the **+** button.
 ```
 
-### KPackageKit (CLI)
-If you prefer using the package manager tools:
+### Via kpackagetool6
 ```bash
 kpackagetool6 -t Plasma/Applet -i path/to/package
 ```
+
+### Adding the Widget
+Right-click your desktop → **Add Widgets** → search "Aesthetic Clock" → click **+**.
 
 ## Credits
 - **Original Applet (Plasma 5) by Prayag2:** [kde_aestheticclock](https://github.com/Prayag2/kde_aestheticclock)
