@@ -39,7 +39,7 @@ This project was originally created for personal use and is provided publicly in
 ### Manual Installation
 ```bash
 # 1. Clone the repository:
-git clone https://github.com/[ecdevv]/plasma-applet-aestheticclock.git
+git clone https://github.com/ecdevv/plasma-applet-aestheticclock.git
 
 # 2. Copy the widget to your local Plasma folder:
 mkdir -p ~/.local/share/plasma/plasmoids/com.github.prayag2.aestheticclock
@@ -53,7 +53,7 @@ kquitapp6 plasmashell && kstart5 plasmashell
 
 ### Via kpackagetool6
 ```bash
-kpackagetool6 -t Plasma/Applet -i path/to/package
+kpackagetool6 -t Plasma/Applet -i plasma-applet-aestheticclock/package
 ```
 
 ### Adding the Widget
